@@ -13,7 +13,7 @@ function Routes() {
   const { preferences } = useFinance();
 
   return (
-    <Router base="/Expense-Tracker-App/">
+    <Router base="/Expense-Tracker-App">
       <Switch>
         <Route path="/">
           <>
